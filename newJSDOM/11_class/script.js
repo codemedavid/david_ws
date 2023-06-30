@@ -13,6 +13,10 @@ class Car{
         this.#serialNumber = serialNumber
         this.noOfWheel = noOfWheel && noOfWheel > 1 ? noOfWheel : this.noOfWheel
     }
+
+    get serialNumber(){
+        return this.#serialNumber
+    }
 }
 
 const Audi = new Car('red', 'UGGSSJA08BHS') //new Car
