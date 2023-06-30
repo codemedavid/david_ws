@@ -1,0 +1,1 @@
+//class <name_of_class> {}
